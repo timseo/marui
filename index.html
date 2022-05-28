@@ -35,7 +35,7 @@
 
     <!-- Document Title
     ============================================= -->
-    <title>Marui Sushi | Corona California | Restaurant</title>
+    <title>Marui Sushi Corona CA 92881</title>
 </head>
 
 <body>
@@ -52,24 +52,25 @@
 <header id="navbar-spy" class="header header-1 header-transparent header-fixed">
     <nav id="primary-menu" class="navbar navbar-fixed-top">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-                <a class="logo" href="index.html">
-					<img class="logo-light" src="assets/images/logo/logo-light.png" alt="Steakin Logo" draggable="false">
-					<img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Steakin Logo" draggable="false">
-				</a>
-            </div>
+            <div class="container-bordered">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+                    <a class="logo" href="index.html">
+						<img class="logo-light" src="assets/images/logo/logo-light.png" alt="Steakin Logo" draggable="false">
+						<img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Steakin Logo" draggable="false">
+					</a>
+                </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse pull-right" id="navbar-collapse-1">
-                <ul class="nav navbar-nav nav-pos-right navbar-left">
-                    <!-- Home Menu -->
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse pull-right" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav nav-pos-right navbar-left">
+                        <!-- Home Menu -->
 <li class="has-dropdown mega-dropdown active">
     <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item">home</a>
     <ul class="dropdown-menu mega-dropdown-menu">
@@ -175,7 +176,7 @@
             <a href="page-testimonials.html">guestbook</a>
         </li>
         <li>
-            <a href="page-gallery.html">gallery</a>
+            <a href="page-book-table.html">online reservation</a>
         </li>
 
     </ul>
@@ -204,10 +205,6 @@
     </ul>
 </li>
 <!-- li end -->
-
-<li>
-    <a class="menu-item" href="page-book-table.html">book a table</a>
-</li>
 
 <!-- Features Menu-->
 <li class="has-dropdown">
@@ -539,6 +536,9 @@
                             <li>
                                 <a href="elements-daily-specials.html"><i class="fa fa-newspaper-o"></i>Daily Specials</a>
                             </li>
+                            <li>
+                                <a href="elements-interactive-banners.html"><i class="fa fa-laptop"></i>interactive banners</a>
+                            </li>
                         </ul>
                     </div>
                     <!-- .col-md-3 end -->
@@ -549,6 +549,9 @@
                         <ul>
                             <li>
                                 <a href="elements-accordion.html"><i class="fa fa-server"></i>accordion</a>
+                            </li>
+                            <li>
+                                <a href="elements-buttons.html"><i class="fa fa-suitcase"></i>buttons</a>
                             </li>
                             <li>
                                 <a href="elements-cta.html"><i class="fa fa-child"></i>call to action</a>
@@ -588,9 +591,6 @@
                             <li>
                                 <a href="elements-progress-bars.html"><i class="fa fa-hourglass-half"></i>progress bars</a>
                             </li>
-                            <li>
-                                <a href="elements-interactive-banners.html"><i class="fa fa-laptop"></i>interactive banners</a>
-                            </li>
                         </ul>
                     </div>
                     <!-- .col-md-3 end -->
@@ -599,9 +599,6 @@
                     <div class="col-md-3">
                         <a href="#">typography</a>
                         <ul>
-                           <li>
-                                <a href="elements-buttons.html"><i class="fa fa-suitcase"></i>buttons</a>
-                            </li>
                             <li>
                                 <a href="elements-heading.html"><i class="fa fa-sort-alpha-asc"></i>heading</a>
                             </li>
@@ -626,10 +623,10 @@
     </ul>
     <!-- .mega-dropdown-menu end -->
 </li>
-                </ul>
-                <!-- Module Reservation  -->
+                    </ul>
+                    <!-- Module Reservation  -->
 <div class="module module-reservation pull-left">
-    <a class="btn-popup btn-popup-theme" data-toggle="modal" data-target="#reservationModule">Book A Table</a>
+    <a class="btn-popup btn-popup-bordered" data-toggle="modal" data-target="#reservationModule">Book A Table</a>
     <div class="modal fade reservation-popup" tabindex="-1" role="dialog" id="reservationModule">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
@@ -652,7 +649,7 @@
                                             <div class="col-xs-12 col-sm-12 col-md-4">
                                                 <div class="form-select">
                                                     <i class="fa fa-angle-down"></i>
-                                                    <select class="form-control" name="people" id="numPopup" required>
+                                                    <select class="form-control" name="people" id="numPopup">
 														<option value="">Number of people</option>
 <option value="2">2 People</option>
 														<option value="3">3 People</option>
@@ -667,7 +664,7 @@
                                             <div class="col-xs-12 col-sm-12 col-md-4">
                                                 <div class="form-select">
                                                     <i class="fa fa-angle-down"></i>
-                                                    <select class="form-control" name="day" id="dayPopup" required>
+                                                    <select class="form-control" name="day" id="dayPopup">
 														<option value="">Date</option>
 <option value="november 23">November 23, 2018</option>
 														<option value="november 24">November 24, 2018</option>
@@ -680,7 +677,7 @@
                                             <div class="col-xs-12 col-sm-12 col-md-4">
                                                 <div class="form-select">
                                                     <i class="fa fa-angle-down"></i>
-                                                    <select class="form-control" name="time" id="timePopup" required>
+                                                    <select class="form-control" name="time" id="timePopup">
 														<option value="">Time</option>
 <option value="8:00">8:00 PM</option>
 														<option value="9:00">9:00 PM</option>
@@ -699,7 +696,6 @@
                                             </div>
                                         </div>
                                         <!-- .row end -->
-
                                     </form>
                                     <!-- form end -->
                                 </div>
@@ -722,7 +718,7 @@
     </div>
     <!-- /.modal -->
 </div>
-                <!-- Module Cart -->
+                    <!-- Module Cart -->
 <div class="module module-cart pull-left">
     <div class="module-icon cart-icon">
         <i class="fa fa-shopping-cart"></i>
@@ -767,7 +763,7 @@
     </div>
 </div>
 <!-- .module-cart end -->
-                <!-- Module Search -->
+                    <!-- Module Search -->
 <div class="module module-search pull-left">
     <div class="module-icon search-icon">
         <i class="fa fa-search"></i>
@@ -794,14 +790,14 @@
     </div>
 </div>
 <!-- .module-search end -->
-                <!-- Module Side NAV -->
-                <div class="module module-side-nav pull-left">
-                    <div class="module-icon side-nav-icon">
-                        <i class="fa fa-bars"></i>
-                        <span class="title">Side Navigation</span>
-                    </div>
-                    <div class="module-content module-hamburger">
-                        <div class="hamburger-panel module-widgets">
+                    <!-- Module Side NAV -->
+                    <div class="module module-side-nav pull-left">
+                        <div class="module-icon side-nav-icon">
+                            <i class="fa fa-bars"></i>
+                            <span class="title">Side Navigation</span>
+                        </div>
+                        <div class="module-content module-hamburger">
+                            <div class="hamburger-panel module-widgets">
 
     <!-- Recent Posts
 ============================================= -->
@@ -872,10 +868,11 @@
     <!-- .widget-tags end -->
     <a class="module-cancel" href="#"><i class="fa fa-times"></i></a>
 </div>
+                        </div>
                     </div>
                 </div>
+                <!-- /.navbar-collapse -->
             </div>
-            <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
@@ -889,25 +886,25 @@
 		<div id="slider1" class="rev_slider"  data-version="5.0">
 			<ul>
 				<!-- slide 1 -->
-				<li data-transition="zoomin"
+				<li data-transition="turnoff-vertical"
 					data-slotamount="default"
 					data-easein="Power4.easeInOut"
 					data-easeout="Power4.easeInOut"
 					data-masterspeed="2000">
 					<!-- MAIN IMAGE -->
-					<img src="assets/images/sliders/slide-bg/1.jpg" alt="Slide Background Image"  width="1920" height="1280">
-					<!-- LAYER NR. 1 -->
+					<img src="assets/images/sliders/slide-bg/8.jpg" alt="Slide Background Image"  width="1920" height="1280">
+				    <!-- LAYER NR. 1 -->
 					<div class="tp-caption"
 						data-x="center" data-hoffset="0"
 						data-y="center" data-voffset="-130"
 						data-whitespace="nowrap"
 						data-width="none"
 						data-height="none"
-                        data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                        data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]'
 						data-splitin="none"
 						data-splitout="none"
 						data-responsive_offset="on">
-						<div class="slide--subheadline">Welcome To Steak In</div>
+						<div class="slide--subheadline">Made With Love</div>
 					</div>
 
 					<!-- LAYER NR. 2 -->
@@ -921,7 +918,7 @@
 						data-splitin="none"
 						data-splitout="none"
 						data-responsive_offset="on">
-						<div class="slide--headline">We Are Food Masters!</div>
+						<div class="slide--headline">We Serve Quality Food</div>
 					</div>
 
 					<!-- LAYER NR. 3 -->
@@ -930,88 +927,12 @@
 						data-y="center" data-voffset="20"
 						data-width="none"
 						data-height="none"
-                        data-frames='[{"delay":2000,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-						data-splitin="none"
-						data-splitout="none"
-						data-responsive_offset="on"
-						>
-						<div class="slide--bio text--center">Steak In has the perfect place to enjoy fine food and great cocktails with <br>excellent service, in comfortable atmospheric surroundings. </div>
-					</div>
-
-					<!-- LAYER NR. 4 -->
-					<div class="tp-caption"
-						data-x="center" data-hoffset="0"
-						data-y="center" data-voffset="100"
-						data-width="none"
-						data-height="none"
-						data-whitespace="nowrap"
-						data-transform_idle="o:1;"
-						data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeOut;"
-						data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);"
-						data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-						data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-						data-mask_out="x:inherit;y:inherit;"
-						data-start="1250"
-						data-splitin="none"
-						data-splitout="none"
-                        data-frames='[{"delay":2000,"speed":1500,"frame":"0","from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'						data-basealign="slide"
-						data-responsive_offset="on"
-						data-responsive="off">
-						<div class="slide-action">
-							<a class="btn btn--white btn--bordered btn--rounded btn--lg" href="#">Book Your Table Now</a>
-						</div>
-					</div>
-				</li>
-
-				<!-- slide 2 -->
-				<li data-transition="slideoverdown"
-					data-slotamount="default"
-					data-easein="Power4.easeInOut"
-					data-easeout="Power4.easeInOut"
-					data-masterspeed="2000">
-					<!-- MAIN IMAGE -->
-					<img src="assets/images/sliders/slide-bg/3.jpg" alt="Slide Background Image"  width="1920" height="1280">
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption"
-						data-x="center" data-hoffset="0"
-						data-y="center" data-voffset="-130"
-						data-whitespace="nowrap"
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                        data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
 						data-splitin="none"
 						data-splitout="none"
 						data-responsive_offset="on">
-						<div class="slide--subheadline">Hello, We Are Granny</div>
-					</div>
-
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption"
-						data-x="center" data-hoffset="0"
-						data-y="center" data-voffset="-65"
-						data-whitespace="nowrap"
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":1750,"speed":1000,"frame":"0","from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-						data-splitin="none"
-						data-splitout="none"
-						data-responsive_offset="on">
-						<div class="slide--headline extend">We Serve Quality Food</div>
-					</div>
-
-					<!-- LAYER NR. 3 -->
-					<div class="tp-caption"
-						data-x="center" data-hoffset="0"
-						data-y="center" data-voffset="20"
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":2000,"speed":300,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-						data-splitin="none"
-						data-splitout="none"
-						data-responsive_offset="on"
-						>
-						<div class="slide--bio text--center">Granny is a restaurant, bar and coffee roastery located on Egypt. We have<br>awesome recipes and the most talented chefs in town! </div>
-					</div>
+                        <div class="slide--bio text--center">Steak In has the perfect place to enjoy fine food and great cocktails with <br>excellent service, in comfortable atmospheric surroundings. </div>
+                    </div>
 
 					<!-- LAYER NR. 4 -->
 					<div class="tp-caption"
@@ -1028,19 +949,20 @@
 						data-responsive_offset="on"
 						data-responsive="off">
 						<div class="slide-action">
-							<a class="btn btn--primary btn--inverse btn--rounded btn--lg" href="#">View Menu</a>
+							<a class="btn btn--white btn--bordered btn--rounded" href="#">View Menu</a>
 						</div>
 					</div>
+
 				</li>
 
-				<!-- slide 3 -->
-				<li data-transition="zoomout"
+				<!-- slide 2 -->
+				<li data-transition="parallaxtobottom"
 					data-slotamount="default"
 					data-easein="Power4.easeInOut"
 					data-easeout="Power4.easeInOut"
 					data-masterspeed="2000">
 					<!-- MAIN IMAGE -->
-					<img src="assets/images/sliders/slide-bg/12.jpg" alt="Slide Background Image"  width="1920" height="1280">
+					<img src="assets/images/sliders/slide-bg/3.jpg" alt="Slide Background Image"  width="1920" height="1280">
 					<!-- LAYER NR. 1 -->
 					<div class="tp-caption"
 						data-x="center" data-hoffset="0"
@@ -1048,11 +970,11 @@
 						data-whitespace="nowrap"
 						data-width="none"
 						data-height="none"
-                        data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                        data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
 						data-splitin="none"
 						data-splitout="none"
 						data-responsive_offset="on">
-						<div class="slide--subheadline">Steak In Offers You</div>
+						<div class="slide--subheadline">Creative & Talented Chefs</div>
 					</div>
 
 					<!-- LAYER NR. 2 -->
@@ -1062,11 +984,11 @@
 						data-whitespace="nowrap"
 						data-width="none"
 						data-height="none"
-                        data-frames='[{"delay":1750,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                        data-frames='[{"delay":1750,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
 						data-splitin="none"
 						data-splitout="none"
 						data-responsive_offset="on">
-						<div class="slide--headline">Fresh & Tasty Meals</div>
+						<div class="slide--headline">Real & Delicious Food</div>
 					</div>
 
 					<!-- LAYER NR. 3 -->
@@ -1075,10 +997,73 @@
 						data-y="center" data-voffset="100"
 						data-width="none"
 						data-height="none"
-                        data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'						data-splitin="none"
+						data-whitespace="nowrap"
+                        data-frames='[{"delay":2000,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+						data-splitin="none"
+						data-splitout="none"
+						data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]'
+						data-basealign="slide"
+						data-responsive_offset="on"
+						data-responsive="off">
+						<div class="slide-action">
+						<div class="slide--bio text-center">Steak In has the perfect place to enjoy fine food and great cocktails with<br> excellent service, in comfortable atmospheric surroundings. </div>
+						</div>
+					</div>
+				</li>
+
+				<!-- slide 3 -->
+				<li data-transition="turnoff"
+					data-slotamount="default"
+					data-easein="Power4.easeInOut"
+					data-easeout="Power4.easeInOut"
+					data-masterspeed="2000">
+					<!-- MAIN IMAGE -->
+					<img src="assets/images/sliders/slide-bg/4.jpg" alt="Slide Background Image"  width="1920" height="1280">
+					<!-- LAYER NR. 1 -->
+					<div class="tp-caption"
+						data-x="center" data-hoffset="0"
+						data-y="center" data-voffset="-65"
+						data-whitespace="nowrap"
+						data-width="none"
+						data-height="none"
+                        data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+						data-splitin="none"
 						data-splitout="none"
 						data-responsive_offset="on">
-						<div class="slide--bio text--center">Steak In has the perfect place to enjoy fine food and great cocktails with <br>excellent service, in comfortable atmospheric surroundings. </div>
+						<div class="slide--subheadline">The Best Food You Will Ever Taste</div>
+					</div>
+
+					<!-- LAYER NR. 2 -->
+					<div class="tp-caption"
+						data-x="center" data-hoffset="0"
+						data-y="center" data-voffset="0"
+						data-whitespace="nowrap"
+						data-width="none"
+						data-height="none"
+                        data-frames='[{"delay":1750,"speed":1500,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+						data-splitin="none"
+						data-splitout="none"
+						data-responsive_offset="on">
+						<div class="slide--headline">Winter Delicious Flavour</div>
+					</div>
+
+					<!-- LAYER NR. 3 -->
+					<div class="tp-caption"
+						data-x="center" data-hoffset="0"
+						data-y="center" data-voffset="100"
+						data-width="none"
+						data-height="none"
+						data-whitespace="nowrap"
+                        data-frames='[{"delay":2000,"speed":1500,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+						data-splitin="none"
+						data-splitout="none"
+						data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]'
+						data-basealign="slide"
+						data-responsive_offset="on"
+						data-responsive="off">
+						<div class="slide-action">
+							<a class="btn btn--white btn--bordered btn--rounded" href="#">View Menu</a>
+						</div>
 					</div>
 				</li>
 
@@ -1088,171 +1073,137 @@
 	</div>
 	<!-- END OF SLIDER WRAPPER -->
 </section>
-<!-- banner#4
+<!-- banner#1
 ============================================= -->
-<section id="banner4" class="banner banner-2 text-center">
+<section id="banner1" class="banner banner-2 text-center">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
                 <div class="heading heading-1 text--center">
                     <p class="heading--subtitle">Hello dear</p>
-                    <h2 class="heading--title">Welcome To Steak In</h2>
+                    <h2 class="heading--title">We Are Steak In!</h2>
                     <div class="divider--shape-4"></div>
-                    <p class="heading--desc">Steak In was the first retaurant to open in Egypt, the resturant was designed with the history in mind we have created a soft industrial dining room, combined with an open kitchen, coffee take out bar and on site coffee roastery.</p>
+                    <p class="heading--desc">Steak In has the perfect place to enjoy fine food and great cocktails with excellent service, in comfortable atmospheric surroundings. We have a soft dining room, combined with an open kitchen, coffee take out bar and alovely awesome on site coffee roastery.</p>
+                    <div class="signiture--img mt-30">
+                        <img src="assets/images/heading/Signiture.png" alt="Signiture img">
+                    </div>
                 </div>
                 <!-- .heading end -->
-                <a class="btn btn--secondary btn--bordered btn--rounded mt-30" href="#">Book A Table</a>
             </div>
             <!-- .col-md-6 end -->
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="banner-img mt-20">
-                    <img src="assets/images/banners/4.jpg" alt="image">
-                </div>
-            </div>
-            <!-- .col-md-3 end -->
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="banner-img">
-                    <img src="assets/images/banners/5.jpg" alt="image">
-                </div>
-                <!-- .col-md-3 end -->
-            </div>
-            <!-- .col-md-3 end -->
         </div>
         <!-- .row end -->
     </div>
     <!-- .container end -->
 </section>
-<!-- #banner4 end -->
+<!-- #banner1 end -->
 
-<!-- specials #1
+<!-- Divider #1
 ============================================= -->
-<section id="specials1" class="specials specials-1 menu-simple bg-overlay bg-parallax bg-overlay-dark">
+<section id="divider1" class="section-divider3 bg-overlay bg-parallax bg-overlay-dark4">
     <div class="bg-section">
-        <img src="assets/images/background/21.jpg" alt="Background" />
+        <img src="assets/images/background/6.jpg" alt="Background" />
     </div>
     <div class="container">
         <div class="divider--shape-1up"></div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
-                <div class="dishes-wrapper">
-                    <div class="dishes-bordered">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-                                <div class="heading heading-1 mb-50 text--center">
-                                    <p class="heading--subtitle">Delicious Recipes</p>
-                                    <h2 class="heading--title">Our Special Dishes</h2>
-                                    <div class="divider--shape-4"></div>
-                                </div>
-                            </div>
-                            <!-- .col-md-8 end -->
-                        </div>
-                        <!-- .row end -->
-                        <div class="row">
-                            <!-- Dish #1 -->
-                            <div class="col-xs-12 col-sm-12 col-md-6">
-                                <div class="dish-panel">
-                                    <div class="dish--img">
-                                        <img src="assets/images/menu/dish/1.jpg" alt="dish">
-                                    </div>
-                                    <div class="dish--content">
-                                        <div class="dish--content-bio">
-                                            <h3 class="dish--title">Grilled Fillet</h3>
-                                            <div class="dish--price">$26.95</div>
-                                        </div>
-                                        <p class="dish--desc">Pork fillet, ginger, garlic, honey, pepper & canola oil, Pork fillet, ginger.</p>
-                                    </div>
-                                </div>
-                                <!-- .dish end -->
-                            </div>
-                            <!-- .dish-panel end -->
-
-                            <!-- Dish #2 -->
-                            <div class="col-xs-12 col-sm-12 col-md-6">
-                                <div class="dish-panel">
-                                    <div class="dish--img">
-                                        <img src="assets/images/menu/dish/2.jpg" alt="dish">
-                                    </div>
-                                    <div class="dish--content">
-                                        <div class="dish--content-bio">
-                                            <h3 class="dish--title">Alder Grilled Seafood</h3>
-                                            <div class="dish--price">$44.95</div>
-                                        </div>
-                                        <p class="dish--desc">Monkfish, onion, paella rice,smoked paprika, Monkfish, onion, paella.</p>
-                                    </div>
-                                </div>
-                                <!-- .dish end -->
-                            </div>
-                            <!-- .dish-panel end -->
-                            <!-- Dish #3 -->
-                            <div class="col-xs-12 col-sm-12 col-md-6">
-                                <div class="dish-panel">
-                                    <div class="dish--img">
-                                        <img src="assets/images/menu/dish/3.jpg" alt="dish">
-                                    </div>
-                                    <div class="dish--content">
-                                        <div class="dish--content-bio">
-                                            <h3 class="dish--title">Chicken Breast</h3>
-                                            <div class="dish--price">$28.95</div>
-                                        </div>
-                                        <p class="dish--desc">Paupiette of chicken & beans, blue cheese, rosemary & beans.</p>
-                                    </div>
-                                </div>
-                                <!-- .dish end -->
-                            </div>
-                            <!-- .dish-panel end -->
-
-                            <!-- Dish #4 -->
-                            <div class="col-xs-12 col-sm-12 col-md-6">
-                                <div class="dish-panel">
-                                    <div class="dish--img">
-                                        <img src="assets/images/menu/dish/4.jpg" alt="dish">
-                                    </div>
-                                    <div class="dish--content">
-                                        <div class="dish--content-bio">
-                                            <h3 class="dish--title">Sea Trout</h3>
-                                            <div class="dish--price">$40.95</div>
-                                        </div>
-                                        <p class="dish--desc">Roast trout, English asparagus, watercress , delicious.</p>
-                                    </div>
-                                </div>
-                                <!-- .dish end -->
-                            </div>
-                            <!-- .dish-panel end -->
-                        </div>
-                        <!-- .row end -->
-                    </div>
-                    <!-- .dishes-bordered end -->
+        <div class="row clearfix">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+                <div class="heading heading-3 text--center">
+                    <p class="heading--subtitle">Natural Ingredients</p>
+                    <h2 class="heading--title mb-0 text-white">Delicious Recipes</h2>
                 </div>
-                <!-- .dishes-wrapper end -->
             </div>
-            <!-- .col-md-10 end -->
+            <!-- .col-md-8 end -->
         </div>
         <!-- .row end -->
         <div class="divider--shape-1down"></div>
     </div>
     <!-- .container end -->
 </section>
-<!-- #specials1 end -->
+<!-- #divider1 end -->
 
-<!-- Menu Board
+<!-- Banner#6
 ============================================= -->
-<section id="menuBoard" class="pb-90">
+<section id="banner6" class="banner banner-1 text-center pb-90">
     <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="banner-panel">
+                    <div class="banner--img">
+                        <img src="assets/images/banners/1.jpg" alt="banner img" class="img-responsive">
+                    </div>
+                    <div class="banner--content">
+                        <h4>Daily New Fresh Menus</h4>
+                        <p>Steak In help you treat yourself with a different meal everyday, thanks to our daily changing menus and our awesome creative chefs!</p>
+                    </div>
+                </div>
+                <!-- .banner-panel end -->
+            </div>
+            <!-- .col-md-4 end -->
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="banner-panel">
+                    <div class="banner--img">
+                        <img src="assets/images/banners/2.jpg" alt="banner img" class="img-responsive">
+                    </div>
+                    <div class="banner--content">
+                        <h4>Fresh Ingredient, Tasty Meals</h4>
+                        <p>Who said healthy food can't also be delicious? Steak In creative chefs use fresh and seasonal ingredients to make affordable.</p>
+                    </div>
+                </div>
+                <!-- .banner-panel end -->
+            </div>
+            <!-- .col-md-4 end -->
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="banner-panel">
+                    <div class="banner--img">
+                        <img src="assets/images/banners/3.jpg" alt="banner img" class="img-responsive">
+                    </div>
+                    <div class="banner--content">
+                        <h4>Creative & Talented Chefs</h4>
+                        <p>Steak In have offered a team of culinary professionals that make delectable dishes at memorable events for both private clientele.</p>
+                    </div>
+                </div>
+                <!-- .banner-panel end -->
+            </div>
+            <!-- .col-md-4 end -->
+
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #banner6 end -->
+
+<!-- Divider #1
+============================================= -->
+<section id="divider2" class="section-divider3 bg-overlay bg-parallax bg-overlay-dark4">
+    <div class="bg-section">
+        <img src="assets/images/background/27.jpg" alt="Background" />
+    </div>
+    <div class="container">
+        <div class="divider--shape-1up"></div>
         <div class="row clearfix">
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-                <div class="heading heading-1 mb-50 text--center">
-                    <p class="heading--subtitle">Start Eating Better</p>
-                    <h2 class="heading--title mb-0">Daily New Fresh Meals</h2>
-                    <div class="divider--shape-4"></div>
-                    <p class="heading--desc">Steak In has the perfect place to enjoy fine food and great cocktails with excellent service, in comfortable atmospheric surroundings. We have a soft dining room, combined with an open kitchen, coffee take out bar and alovely awesome on site coffee roastery.</p>
+                <div class="heading heading-3 text--center">
+                    <p class="heading--subtitle">Fresh, Tasty Meals</p>
+                    <h2 class="heading--title mb-0 text-white">Discover Our Menu</h2>
                 </div>
             </div>
             <!-- .col-md-8 end -->
         </div>
         <!-- .row end -->
+        <div class="divider--shape-1down"></div>
     </div>
     <!-- .container end -->
-    <div class="container-fluid tabs">
+</section>
+<!-- #divider1 end -->
+
+<!-- Menu Classic
+============================================= -->
+<section id="menuClassic" class="pt-90 pb-90">
+    <div class="container-fluid pr-0 pl-0 tabs">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <!-- Nav tabs -->
@@ -1266,1145 +1217,638 @@
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div class="tab-pane fade" id="breakfast">
-                        <!-- Menu #7
+                        <!-- Menu #4
 ============================================= -->
-<div class="menu menu-board text-center">
-    <div class="row">
-        <div class="dishes-wrapper">
+<div class="menu menu-classic">
+    <div class="container">
+        <div class="row">
             <!-- Dish #1 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <div class="dish--tag">Chef Selection</div>
-                            <span class="dish--price">$24.95</span>
-                            <h3 class="dish--title">Grilled American Fillet</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Pork fillet, ginger, garlic, honey, pepper & canola oil.creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.</p>
-                        </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="dish-container">
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Chicken Breast</h3>
+                        <div class="dish--price">$33.95</div>
+                        <p class="dish--desc">Paupiette of chicken, blue cheese, rosemary & beans.</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 ">
-                        <div class="dish--img">
-                            <div class="divider--shape-left"></div>
-                            <img src="assets/images/menu/menu-board/1.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/specials/popup/1.jpg" alt="dish popup">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$12.95</div>
-                                <h3 class="popup--title">Grilled American Fillet</h3>
-                            </div>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Salmon Steak</h3>
+                        <div class="dish--price">$41.95</div>
+                        <p class="dish--desc">Salmon, butter, lemon juice, onion, garlic & salad.</p>
                     </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Pork fillet, ginger, garlic, honey, pepper & canola oil.creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.</p>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Chicken Crispy</h3>
+                        <div class="dish--price">$33.95</div>
+                        <p class="dish--desc">Smoked quail, crispy egg, spelt, girolles, parsley.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Grilled Fillet</h3>
+                        <div class="dish--price">$26.95</div>
+                        <p class="dish--desc">Baguette, basil, arugula, olives, cherry-tomatoes.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Roasted Steak Roulade</h3>
+                        <div class="dish--price">$29.95</div>
+                        <p class="dish--desc">Mint parsley with apple cider vinegar, salt & spices.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Sea Trout</h3>
+                        <div class="dish--price">$44.95</div>
+                        <p class="dish--desc">Roast trout, English asparagus, watercress & royals.</p>
                     </div>
                 </div>
-                <!-- .row end -->
+                <!-- .dish end -->
+            </div>
+            <!-- .col-md-4 end -->
 
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-md-6 end -->
             <!-- Dish #2 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <span class="dish--price">$34.95</span>
-                            <h3 class="dish--title">Grilled Seafood Paella</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese. </p>
-                        </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="dish-container">
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Alder Grilled Seafood Paella</h3>
+                        <div class="dish--price">$40.95</div>
+                        <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika.</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class="dish--img">
-                            <div class="divider--shape-left"></div>
-                            <img src="assets/images/menu/menu-board/2.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup2"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup2">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/menu/menu-grid/26.jpg" alt="dish popup">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$34.95</div>
-                                <h3 class="popup--title">Grilled Seafood Paella</h3>
-                            </div>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Cordon Bleu</h3>
+                        <div class="dish--price">$19.95</div>
+                        <p class="dish--desc">chicken breasts, ham, pepper & Swiss cheese.</p>
                     </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Pork fillet, ginger, garlic, honey, pepper & canola oil.creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.</p>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Smoked Paprika Hummus</h3>
+                        <div class="dish--price">$13.95</div>
+                        <p class="dish--desc">Red peppers, roasted garlic, lemon slices, olives .</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Beef/Pork Ribs</h3>
+                        <div class="dish--price">$35.95</div>
+                        <p class="dish--desc">Beef ribs, ginger, garlic, honey, pepper & canola oil.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Creamy Smoked Salmon</h3>
+                        <div class="dish--price">$44.95</div>
+                        <p class="dish--desc">Smoked salmon, leek, potato soup & chives.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Boerewors</h3>
+                        <div class="dish--price">$29.95</div>
+                        <p class="dish--desc">Meat, vinger, plass wors spice & some thick.</p>
                     </div>
                 </div>
-                <!-- .row end -->
+                <!-- .dish end -->
             </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-md-6 end -->
+            <!-- .col-md-4 end -->
+
             <!-- Dish #3 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--img">
-                            <div class="divider--shape-right"></div>
-                            <img src="assets/images/menu/menu-board/3.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup3"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup3">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/menu/menu-grid/27.jpg" alt="dish img">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$38.95</div>
-                                <h3 class="popup--title">Roast Sea Trout</h3>
-                            </div>
-                        </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="dish-container">
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Traditional pancakes</h3>
+                        <div class="dish--price">$8.95</div>
+                        <p class="dish--desc">Milk, eggs, strawberries, butter & maple syrup.</p>
                     </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Roast trout, English asparagus, watercress & royals, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread.</p>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">American Brunch</h3>
+                        <div class="dish--price">$14.95</div>
+                        <p class="dish--desc">Applewood smoked bacon, tomatoes & green onions.</p>
                     </div>
-                </div>
-                <!-- .row end -->
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Cannoli with cream cheese</h3>
+                        <div class="dish--price">$15.95</div>
+                        <p class="dish--desc">Smoked quail, crispy egg, spelt, girolles, parsley.</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <div class="dish--tag">new</div>
-                            <span class="dish--price">$38.95</span>
-                            <h3 class="dish--title">Roast Sea Trout</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese. </p>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Chocolate Cherry Cake</h3>
+                        <div class="dish--price">$9.95</div>
+                        <p class="dish--desc">Vanilla, milk, dark chocolate, cherries, eggs, butter.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Pain au chocolat</h3>
+                        <div class="dish--price">$3.95</div>
+                        <p class="dish--desc">Homemade croissant contain a bar of dark chocolate.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Tarte Tatin</h3>
+                        <div class="dish--price">$5.95</div>
+                        <p class="dish--desc">Caramelised apple tart, vanilla ice cream.</p>
                     </div>
                 </div>
+                <!-- .dish end -->
             </div>
-            <!-- .col-md-6 end -->
-            <!-- Dish #4 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--img">
-                            <div class="divider--shape-right"></div>
-                            <img src="assets/images/menu/menu-board/4.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup4"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup4">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/menu/menu-grid/28.jpg" alt="dish img">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$18.95</div>
-                                <h3 class="popup--title">Smoked Paprika</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Red peppers, roasted garlic, lemon slices, olives & mint, creamy crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- .row end -->
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <span class="dish--price">$18.95</span>
-                            <h3 class="dish--title">Smoked Paprika</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-md-6 end -->
+            <!-- .col-md-4 end -->
         </div>
         <!-- .row end -->
     </div>
-    <!-- .row end -->
+    <!-- .container end -->
 </div>
+<!-- #Menu4 end -->
                     </div>
                     <!-- .tab-pane end -->
                     <div class="tab-pane fade in active" id="lunch">
-                        <!-- Menu #7
+                        <!-- Menu #4
 ============================================= -->
-<div class="menu menu-board text-center">
-    <div class="row">
-        <div class="dishes-wrapper">
+<div class="menu menu-classic">
+    <div class="container">
+        <div class="row">
             <!-- Dish #1 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <div class="dish--tag">Chef Selection</div>
-                            <span class="dish--price">$24.95</span>
-                            <h3 class="dish--title">Grilled American Fillet</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Pork fillet, ginger, garlic, honey, pepper & canola oil.creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.</p>
-                        </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="dish-container">
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Chicken Breast</h3>
+                        <div class="dish--price">$33.95</div>
+                        <p class="dish--desc">Paupiette of chicken, blue cheese, rosemary & beans.</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class="dish--img">
-                            <div class="divider--shape-left"></div>
-                            <img src="assets/images/menu/menu-board/1.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup17"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup17">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/menu/menu-grid/19.jpg" alt="dish img">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$24.95</div>
-                                <h3 class="popup--title">Homemade croissa</h3>
-                            </div>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Salmon Steak</h3>
+                        <div class="dish--price">$41.95</div>
+                        <p class="dish--desc">Salmon, butter, lemon juice, onion, garlic & salad.</p>
                     </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Pork fillet, ginger, garlic, honey, pepper & canola oil.creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.</p>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Chicken Crispy</h3>
+                        <div class="dish--price">$33.95</div>
+                        <p class="dish--desc">Smoked quail, crispy egg, spelt, girolles, parsley.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Grilled Fillet</h3>
+                        <div class="dish--price">$26.95</div>
+                        <p class="dish--desc">Baguette, basil, arugula, olives, cherry-tomatoes.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Roasted Steak Roulade</h3>
+                        <div class="dish--price">$29.95</div>
+                        <p class="dish--desc">Mint parsley with apple cider vinegar, salt & spices.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Sea Trout</h3>
+                        <div class="dish--price">$44.95</div>
+                        <p class="dish--desc">Roast trout, English asparagus, watercress & royals.</p>
                     </div>
                 </div>
-                <!-- .row end -->
+                <!-- .dish end -->
+            </div>
+            <!-- .col-md-4 end -->
 
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-md-6 end -->
             <!-- Dish #2 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <span class="dish--price">$34.95</span>
-                            <h3 class="dish--title">Grilled Seafood Paella</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese. </p>
-                        </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="dish-container">
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Alder Grilled Seafood Paella</h3>
+                        <div class="dish--price">$40.95</div>
+                        <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika.</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class="dish--img">
-                            <div class="divider--shape-left"></div>
-                            <img src="assets/images/menu/menu-board/2.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup18"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup18">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/menu/menu-grid/20.jpg" alt="dish img">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$34.95</div>
-                                <h3 class="popup--title">Grilled Seafood Paella</h3>
-                            </div>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Cordon Bleu</h3>
+                        <div class="dish--price">$19.95</div>
+                        <p class="dish--desc">chicken breasts, ham, pepper & Swiss cheese.</p>
                     </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread. </p>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Smoked Paprika Hummus</h3>
+                        <div class="dish--price">$13.95</div>
+                        <p class="dish--desc">Red peppers, roasted garlic, lemon slices, olives .</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Beef/Pork Ribs</h3>
+                        <div class="dish--price">$35.95</div>
+                        <p class="dish--desc">Beef ribs, ginger, garlic, honey, pepper & canola oil.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Creamy Smoked Salmon</h3>
+                        <div class="dish--price">$44.95</div>
+                        <p class="dish--desc">Smoked salmon, leek, potato soup & chives.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Boerewors</h3>
+                        <div class="dish--price">$29.95</div>
+                        <p class="dish--desc">Meat, vinger, plass wors spice & some thick.</p>
                     </div>
                 </div>
-                <!-- .row end -->
+                <!-- .dish end -->
+            </div>
+            <!-- .col-md-4 end -->
 
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-md-6 end -->
             <!-- Dish #3 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--img">
-                            <div class="divider--shape-right"></div>
-                            <img src="assets/images/menu/menu-board/3.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup19"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup19">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/menu/menu-grid/21.jpg" alt="dish img">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$38.95</div>
-                                <h3 class="popup--title">American Brunch</h3>
-                            </div>
-                        </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="dish-container">
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Traditional pancakes</h3>
+                        <div class="dish--price">$8.95</div>
+                        <p class="dish--desc">Milk, eggs, strawberries, butter & maple syrup.</p>
                     </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Roast trout, English asparagus, watercress & royals, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread.</p>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">American Brunch</h3>
+                        <div class="dish--price">$14.95</div>
+                        <p class="dish--desc">Applewood smoked bacon, tomatoes & green onions.</p>
                     </div>
-                </div>
-                <!-- .row end -->
-
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Cannoli with cream cheese</h3>
+                        <div class="dish--price">$15.95</div>
+                        <p class="dish--desc">Smoked quail, crispy egg, spelt, girolles, parsley.</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <div class="dish--tag">new</div>
-                            <span class="dish--price">$38.95</span>
-                            <h3 class="dish--title">Roast Sea Trout</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese. </p>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Chocolate Cherry Cake</h3>
+                        <div class="dish--price">$9.95</div>
+                        <p class="dish--desc">Vanilla, milk, dark chocolate, cherries, eggs, butter.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Pain au chocolat</h3>
+                        <div class="dish--price">$3.95</div>
+                        <p class="dish--desc">Homemade croissant contain a bar of dark chocolate.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Tarte Tatin</h3>
+                        <div class="dish--price">$5.95</div>
+                        <p class="dish--desc">Caramelised apple tart, vanilla ice cream.</p>
                     </div>
                 </div>
+                <!-- .dish end -->
             </div>
-            <!-- .col-md-6 end -->
-            <!-- Dish #4 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--img">
-                            <div class="divider--shape-right"></div>
-                            <img src="assets/images/menu/menu-board/4.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup20"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup20">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/menu/menu-grid/22.jpg" alt="dish img">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$18.95</div>
-                                <h3 class="popup--title">Cannoli</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Red peppers, roasted garlic, lemon slices, olives & mint, creamy crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- .row end -->
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <span class="dish--price">$18.95</span>
-                            <h3 class="dish--title">Smoked Paprika</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-md-6 end -->
+            <!-- .col-md-4 end -->
         </div>
         <!-- .row end -->
     </div>
-    <!-- .row end -->
+    <!-- .container end -->
 </div>
+<!-- #Menu4 end -->
                     </div>
                     <!-- .tab-pane end -->
                     <div class="tab-pane fade" id="dinner">
-                        <!-- Menu #7
+                        <!-- Menu #4
 ============================================= -->
-<div class="menu menu-board text-center">
-    <div class="row">
-        <div class="dishes-wrapper">
+<div class="menu menu-classic">
+    <div class="container">
+        <div class="row">
             <!-- Dish #1 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <div class="dish--tag">Chef Selection</div>
-                            <span class="dish--price">$24.95</span>
-                            <h3 class="dish--title">Grilled American Fillet</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Pork fillet, ginger, garlic, honey, pepper & canola oil.creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.</p>
-                        </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="dish-container">
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Chicken Breast</h3>
+                        <div class="dish--price">$33.95</div>
+                        <p class="dish--desc">Paupiette of chicken, blue cheese, rosemary & beans.</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 ">
-                        <div class="dish--img">
-                            <div class="divider--shape-left"></div>
-                            <img src="assets/images/menu/menu-board/13.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup9"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup9">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/specials/popup/1.jpg" alt="dish popup">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$12.95</div>
-                                <h3 class="popup--title">Grilled American Fillet</h3>
-                            </div>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Salmon Steak</h3>
+                        <div class="dish--price">$41.95</div>
+                        <p class="dish--desc">Salmon, butter, lemon juice, onion, garlic & salad.</p>
                     </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Pork fillet, ginger, garlic, honey, pepper & canola oil.creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.</p>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Chicken Crispy</h3>
+                        <div class="dish--price">$33.95</div>
+                        <p class="dish--desc">Smoked quail, crispy egg, spelt, girolles, parsley.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Grilled Fillet</h3>
+                        <div class="dish--price">$26.95</div>
+                        <p class="dish--desc">Baguette, basil, arugula, olives, cherry-tomatoes.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Roasted Steak Roulade</h3>
+                        <div class="dish--price">$29.95</div>
+                        <p class="dish--desc">Mint parsley with apple cider vinegar, salt & spices.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Sea Trout</h3>
+                        <div class="dish--price">$44.95</div>
+                        <p class="dish--desc">Roast trout, English asparagus, watercress & royals.</p>
                     </div>
                 </div>
-                <!-- .row end -->
+                <!-- .dish end -->
+            </div>
+            <!-- .col-md-4 end -->
 
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-md-6 end -->
             <!-- Dish #2 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <span class="dish--price">$34.95</span>
-                            <h3 class="dish--title">Grilled Seafood Paella</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese. </p>
-                        </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="dish-container">
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Alder Grilled Seafood Paella</h3>
+                        <div class="dish--price">$40.95</div>
+                        <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika.</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class="dish--img">
-                            <div class="divider--shape-left"></div>
-                            <img src="assets/images/menu/menu-board/14.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup10"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup10">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/menu/menu-grid/2.jpg" alt="dish img">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$34.95</div>
-                                <h3 class="popup--title">Grilled Seafood Paella</h3>
-                            </div>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Cordon Bleu</h3>
+                        <div class="dish--price">$19.95</div>
+                        <p class="dish--desc">chicken breasts, ham, pepper & Swiss cheese.</p>
                     </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread. </p>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Smoked Paprika Hummus</h3>
+                        <div class="dish--price">$13.95</div>
+                        <p class="dish--desc">Red peppers, roasted garlic, lemon slices, olives .</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Beef/Pork Ribs</h3>
+                        <div class="dish--price">$35.95</div>
+                        <p class="dish--desc">Beef ribs, ginger, garlic, honey, pepper & canola oil.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Creamy Smoked Salmon</h3>
+                        <div class="dish--price">$44.95</div>
+                        <p class="dish--desc">Smoked salmon, leek, potato soup & chives.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Boerewors</h3>
+                        <div class="dish--price">$29.95</div>
+                        <p class="dish--desc">Meat, vinger, plass wors spice & some thick.</p>
                     </div>
                 </div>
-                <!-- .row end -->
+                <!-- .dish end -->
             </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-md-6 end -->
+            <!-- .col-md-4 end -->
+
             <!-- Dish #3 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--img">
-                            <div class="divider--shape-right"></div>
-                            <img src="assets/images/menu/menu-board/15.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup11"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup11">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/menu/menu-grid/3.jpg" alt="dish img">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$38.95</div>
-                                <h3 class="popup--title">Roast Sea Trout</h3>
-                            </div>
-                        </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="dish-container">
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Traditional pancakes</h3>
+                        <div class="dish--price">$8.95</div>
+                        <p class="dish--desc">Milk, eggs, strawberries, butter & maple syrup.</p>
                     </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Roast trout, English asparagus, watercress & royals, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread.</p>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">American Brunch</h3>
+                        <div class="dish--price">$14.95</div>
+                        <p class="dish--desc">Applewood smoked bacon, tomatoes & green onions.</p>
                     </div>
-                </div>
-                <!-- .row end -->
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Cannoli with cream cheese</h3>
+                        <div class="dish--price">$15.95</div>
+                        <p class="dish--desc">Smoked quail, crispy egg, spelt, girolles, parsley.</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <div class="dish--tag">new</div>
-                            <span class="dish--price">$38.95</span>
-                            <h3 class="dish--title">Roast Sea Trout</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese. </p>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Chocolate Cherry Cake</h3>
+                        <div class="dish--price">$9.95</div>
+                        <p class="dish--desc">Vanilla, milk, dark chocolate, cherries, eggs, butter.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Pain au chocolat</h3>
+                        <div class="dish--price">$3.95</div>
+                        <p class="dish--desc">Homemade croissant contain a bar of dark chocolate.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Tarte Tatin</h3>
+                        <div class="dish--price">$5.95</div>
+                        <p class="dish--desc">Caramelised apple tart, vanilla ice cream.</p>
                     </div>
                 </div>
+                <!-- .dish end -->
             </div>
-            <!-- .col-md-6 end -->
-            <!-- Dish #4 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--img">
-                            <div class="divider--shape-right"></div>
-                            <img src="assets/images/menu/menu-board/16.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup12"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup12">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/menu/menu-grid/4.jpg" alt="dish img">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$18.95</div>
-                                <h3 class="popup--title">Smoked Paprika</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Red peppers, roasted garlic, lemon slices, olives & mint, creamy crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- .row end -->
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <span class="dish--price">$18.95</span>
-                            <h3 class="dish--title">Smoked Paprika</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-md-6 end -->
+            <!-- .col-md-4 end -->
         </div>
         <!-- .row end -->
     </div>
-    <!-- .row end -->
+    <!-- .container end -->
 </div>
+<!-- #Menu4 end -->
                     </div>
                     <!-- .tab-pane end -->
                     <div class="tab-pane fade" id="dessert">
-                        <!-- Menu #7
+                        <!-- Menu #4
 ============================================= -->
-<div class="menu menu-board text-center">
-    <div class="row">
-        <div class="dishes-wrapper">
+<div class="menu menu-classic">
+    <div class="container">
+        <div class="row">
             <!-- Dish #1 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <div class="dish--tag">Chef Selection</div>
-                            <span class="dish--price">$24.95</span>
-                            <h3 class="dish--title">Blueberry Sweet Rolls</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Pork fillet, ginger, garlic, honey, pepper & canola oil.creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.</p>
-                        </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="dish-container">
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Chicken Breast</h3>
+                        <div class="dish--price">$33.95</div>
+                        <p class="dish--desc">Paupiette of chicken, blue cheese, rosemary & beans.</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 ">
-                        <div class="dish--img">
-                            <div class="divider--shape-left"></div>
-                            <img src="assets/images/menu/menu-board/19.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup5"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup5">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/menu/menu-grid/29.jpg" alt="dish img">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$12.95</div>
-                                <h3 class="popup--title">Smoked Hummus</h3>
-                            </div>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Salmon Steak</h3>
+                        <div class="dish--price">$41.95</div>
+                        <p class="dish--desc">Salmon, butter, lemon juice, onion, garlic & salad.</p>
                     </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Roast trout, English asparagus, watercress & royals, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread. </p>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Chicken Crispy</h3>
+                        <div class="dish--price">$33.95</div>
+                        <p class="dish--desc">Smoked quail, crispy egg, spelt, girolles, parsley.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Grilled Fillet</h3>
+                        <div class="dish--price">$26.95</div>
+                        <p class="dish--desc">Baguette, basil, arugula, olives, cherry-tomatoes.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Roasted Steak Roulade</h3>
+                        <div class="dish--price">$29.95</div>
+                        <p class="dish--desc">Mint parsley with apple cider vinegar, salt & spices.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Sea Trout</h3>
+                        <div class="dish--price">$44.95</div>
+                        <p class="dish--desc">Roast trout, English asparagus, watercress & royals.</p>
                     </div>
                 </div>
-                <!-- .row end -->
+                <!-- .dish end -->
             </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-md-6 end -->
-            <!-- Dish #2 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <span class="dish--price">$34.95</span>
-                            <h3 class="dish--title">Traditional pancakes</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese. </p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class="dish--img">
-                            <div class="divider--shape-left"></div>
-                            <img src="assets/images/menu/menu-board/20.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup6"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup6">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/menu/menu-grid/30.jpg" alt="dish img">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$33.95</div>
-                                <h3 class="popup--title">Chicken Breast</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Red peppers, roasted garlic, lemon slices, olives & mint, creamy crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- .row end -->
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-md-6 end -->
-            <!-- Dish #3 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--img">
-                            <div class="divider--shape-right"></div>
-                            <img src="assets/images/menu/menu-board/21.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup7"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup7">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/menu/menu-grid/31.jpg" alt="dish img">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$29.95</div>
-                                <h3 class="popup--title">Roasted Steak Roulade</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Pork fillet, ginger, garlic, honey, pepper & canola oil.creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- .row end -->
+            <!-- .col-md-4 end -->
 
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
+            <!-- Dish #2 -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="dish-container">
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Alder Grilled Seafood Paella</h3>
+                        <div class="dish--price">$40.95</div>
+                        <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika.</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <div class="dish--tag">new</div>
-                            <span class="dish--price">$38.95</span>
-                            <h3 class="dish--title">Chocolate Cherry Cake</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese. </p>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Cordon Bleu</h3>
+                        <div class="dish--price">$19.95</div>
+                        <p class="dish--desc">chicken breasts, ham, pepper & Swiss cheese.</p>
                     </div>
-                </div>
-            </div>
-            <!-- .col-md-6 end -->
-            <!-- Dish #4 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--img">
-                            <div class="divider--shape-right"></div>
-                            <img src="assets/images/menu/menu-board/22.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup8"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup8">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/menu/menu-grid/32.jpg" alt="dish img">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$29.95</div>
-                                <h3 class="popup--title">Roasted Steak Roulade</h3>
-                            </div>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Smoked Paprika Hummus</h3>
+                        <div class="dish--price">$13.95</div>
+                        <p class="dish--desc">Red peppers, roasted garlic, lemon slices, olives .</p>
                     </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Pork fillet, ginger, garlic, honey, pepper & canola oil.creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.</p>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Beef/Pork Ribs</h3>
+                        <div class="dish--price">$35.95</div>
+                        <p class="dish--desc">Beef ribs, ginger, garlic, honey, pepper & canola oil.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Creamy Smoked Salmon</h3>
+                        <div class="dish--price">$44.95</div>
+                        <p class="dish--desc">Smoked salmon, leek, potato soup & chives.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Boerewors</h3>
+                        <div class="dish--price">$29.95</div>
+                        <p class="dish--desc">Meat, vinger, plass wors spice & some thick.</p>
                     </div>
                 </div>
-                <!-- .row end -->
+                <!-- .dish end -->
             </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
+            <!-- .col-md-4 end -->
+
+            <!-- Dish #3 -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="dish-container">
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Traditional pancakes</h3>
+                        <div class="dish--price">$8.95</div>
+                        <p class="dish--desc">Milk, eggs, strawberries, butter & maple syrup.</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <span class="dish--price">$18.95</span>
-                            <h3 class="dish--title">Pain au chocolat</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese. </p>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">American Brunch</h3>
+                        <div class="dish--price">$14.95</div>
+                        <p class="dish--desc">Applewood smoked bacon, tomatoes & green onions.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Cannoli with cream cheese</h3>
+                        <div class="dish--price">$15.95</div>
+                        <p class="dish--desc">Smoked quail, crispy egg, spelt, girolles, parsley.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Chocolate Cherry Cake</h3>
+                        <div class="dish--price">$9.95</div>
+                        <p class="dish--desc">Vanilla, milk, dark chocolate, cherries, eggs, butter.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Pain au chocolat</h3>
+                        <div class="dish--price">$3.95</div>
+                        <p class="dish--desc">Homemade croissant contain a bar of dark chocolate.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Tarte Tatin</h3>
+                        <div class="dish--price">$5.95</div>
+                        <p class="dish--desc">Caramelised apple tart, vanilla ice cream.</p>
                     </div>
                 </div>
+                <!-- .dish end -->
             </div>
-            <!-- .col-md-6 end -->
+            <!-- .col-md-4 end -->
         </div>
         <!-- .row end -->
     </div>
-    <!-- .row end -->
+    <!-- .container end -->
 </div>
+<!-- #Menu4 end -->
                     </div>
                     <!-- .tab-pane end -->
                     <div class="tab-pane fade" id="drinks">
-                        <!-- Menu #7
+                        <!-- Menu #4
 ============================================= -->
-<div class="menu menu-board text-center">
-    <div class="row">
-        <div class="dishes-wrapper">
+<div class="menu menu-classic">
+    <div class="container">
+        <div class="row">
             <!-- Dish #1 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <div class="dish--tag">Chef Selection</div>
-                            <span class="dish--price">$24.95</span>
-                            <h3 class="dish--title">Grilled American Fillet</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Pork fillet, ginger, garlic, honey, pepper & canola oil.creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.</p>
-                        </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="dish-container">
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Chicken Breast</h3>
+                        <div class="dish--price">$33.95</div>
+                        <p class="dish--desc">Paupiette of chicken, blue cheese, rosemary & beans.</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 ">
-                        <div class="dish--img">
-                            <div class="divider--shape-left"></div>
-                            <img src="assets/images/menu/menu-board/9.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup13"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup13">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/menu/menu-grid/5.jpg" alt="dish img">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$13.95</div>
-                                <h3 class="popup--title">Smoked Hummus</h3>
-                            </div>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Salmon Steak</h3>
+                        <div class="dish--price">$41.95</div>
+                        <p class="dish--desc">Salmon, butter, lemon juice, onion, garlic & salad.</p>
                     </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Roast trout, English asparagus, watercress & royals, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread. </p>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Chicken Crispy</h3>
+                        <div class="dish--price">$33.95</div>
+                        <p class="dish--desc">Smoked quail, crispy egg, spelt, girolles, parsley.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Grilled Fillet</h3>
+                        <div class="dish--price">$26.95</div>
+                        <p class="dish--desc">Baguette, basil, arugula, olives, cherry-tomatoes.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Roasted Steak Roulade</h3>
+                        <div class="dish--price">$29.95</div>
+                        <p class="dish--desc">Mint parsley with apple cider vinegar, salt & spices.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Sea Trout</h3>
+                        <div class="dish--price">$44.95</div>
+                        <p class="dish--desc">Roast trout, English asparagus, watercress & royals.</p>
                     </div>
                 </div>
-                <!-- .row end -->
+                <!-- .dish end -->
             </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-md-6 end -->
-            <!-- Dish #2 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <span class="dish--price">$34.95</span>
-                            <h3 class="dish--title">Caffè Macchiato</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese. </p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class="dish--img">
-                            <div class="divider--shape-left"></div>
-                            <img src="assets/images/menu/menu-board/10.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup14"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup14">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/menu/menu-grid/6.jpg" alt="dish img">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$33.95</div>
-                                <h3 class="popup--title">Chicken Breast</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Red peppers, roasted garlic, lemon slices, olives & mint, creamy crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- .row end -->
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-md-6 end -->
-            <!-- Dish #3 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--img">
-                            <div class="divider--shape-right"></div>
-                            <img src="assets/images/menu/menu-board/11.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup15"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup15">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/menu/menu-grid/7.jpg" alt="dish img">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$29.95</div>
-                                <h3 class="popup--title">Roasted Steak Roulade</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Roast trout, English asparagus, watercress & royals, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- .row end -->
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <div class="dish--tag">new</div>
-                            <span class="dish--price">$38.95</span>
-                            <h3 class="dish--title">Dark Coffee</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-md-6 end -->
-            <!-- Dish #4 -->
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="row dish-panel">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--img">
-                            <div class="divider--shape-right"></div>
-                            <img src="assets/images/menu/menu-board/12.jpg" alt="dish img">
-                            <div class="dish--overlay">
-                                <a class="dish-popup" data-toggle="modal" data-target="#dishPopup16"><i class="fa fa-search-plus"></i></a>
-<div class="modal fade" tabindex="-1" role="dialog" id="dishPopup16">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-                <div class="row reservation">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="popup--img">
-                            <img src="assets/images/menu/menu-grid/8.jpg" alt="dish img">
-                            <div class="img-popup-overlay">
-                                <div class="popup--price">$29.95</div>
-                                <h3 class="popup--title">Roasted Steak Roulade</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- .col-md-12 end -->
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div class="content-popup">
-                            <p>Red peppers, roasted garlic, lemon slices, olives & mint, creamy crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- .row end -->
+            <!-- .col-md-4 end -->
 
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-                            </div>
-                        </div>
+            <!-- Dish #2 -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="dish-container">
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Alder Grilled Seafood Paella</h3>
+                        <div class="dish--price">$40.95</div>
+                        <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika.</p>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class=" dish--content">
-                            <span class="dish--price">$18.95</span>
-                            <h3 class="dish--title">Espresso Coffee</h3>
-                            <div class="divider--shape-4"></div>
-                            <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika, creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese. </p>
-                        </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Cordon Bleu</h3>
+                        <div class="dish--price">$19.95</div>
+                        <p class="dish--desc">chicken breasts, ham, pepper & Swiss cheese.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Smoked Paprika Hummus</h3>
+                        <div class="dish--price">$13.95</div>
+                        <p class="dish--desc">Red peppers, roasted garlic, lemon slices, olives .</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Beef/Pork Ribs</h3>
+                        <div class="dish--price">$35.95</div>
+                        <p class="dish--desc">Beef ribs, ginger, garlic, honey, pepper & canola oil.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Creamy Smoked Salmon</h3>
+                        <div class="dish--price">$44.95</div>
+                        <p class="dish--desc">Smoked salmon, leek, potato soup & chives.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Boerewors</h3>
+                        <div class="dish--price">$29.95</div>
+                        <p class="dish--desc">Meat, vinger, plass wors spice & some thick.</p>
                     </div>
                 </div>
+                <!-- .dish end -->
             </div>
-            <!-- .col-md-6 end -->
+            <!-- .col-md-4 end -->
+
+            <!-- Dish #3 -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="dish-container">
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Traditional pancakes</h3>
+                        <div class="dish--price">$8.95</div>
+                        <p class="dish--desc">Milk, eggs, strawberries, butter & maple syrup.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">American Brunch</h3>
+                        <div class="dish--price">$14.95</div>
+                        <p class="dish--desc">Applewood smoked bacon, tomatoes & green onions.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Cannoli with cream cheese</h3>
+                        <div class="dish--price">$15.95</div>
+                        <p class="dish--desc">Smoked quail, crispy egg, spelt, girolles, parsley.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Chocolate Cherry Cake</h3>
+                        <div class="dish--price">$9.95</div>
+                        <p class="dish--desc">Vanilla, milk, dark chocolate, cherries, eggs, butter.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Pain au chocolat</h3>
+                        <div class="dish--price">$3.95</div>
+                        <p class="dish--desc">Homemade croissant contain a bar of dark chocolate.</p>
+                    </div>
+                    <div class="dish-panel">
+                        <h3 class="dish--title">Tarte Tatin</h3>
+                        <div class="dish--price">$5.95</div>
+                        <p class="dish--desc">Caramelised apple tart, vanilla ice cream.</p>
+                    </div>
+                </div>
+                <!-- .dish end -->
+            </div>
+            <!-- .col-md-4 end -->
         </div>
         <!-- .row end -->
     </div>
-    <!-- .row end -->
+    <!-- .container end -->
 </div>
+<!-- #Menu4 end -->
                     </div>
                     <!-- .tab-pane end -->
                 </div>
@@ -2413,323 +1857,373 @@
             <!-- .col-md-12 end -->
         </div>
         <!-- .row end -->
-    </div>
-    <!-- .container end -->
-    <div class="container">
-        <div class="row clearfix">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 text--center">
-                <a class="btn btn--primary btn--bordered btn--rounded btn--lg mt-50" href="#">Discover Full Menu</a>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                <a class="btn btn--primary btn--rounded btn--lg mt-70" href="#">Discover Full Menu</a>
             </div>
-            <!-- .col-md-8 end -->
         </div>
         <!-- .row end -->
     </div>
     <!-- .container end -->
 </section>
-<!-- #menuBoard end -->
+<!-- #menuClassic end -->
 
-<!-- Testimonial #1
+<!-- Divider #1
 ============================================= -->
-<section id="testimonial1" class="testimonial testimonial-1 bg-overlay bg-parallax bg-overlay-dark pb-90">
+<section id="divider3" class="section-divider3 bg-overlay bg-parallax bg-overlay-dark4">
     <div class="bg-section">
-        <img src="assets/images/background/1.jpg" alt="Background" />
+        <img src="assets/images/page-title/6.jpg" alt="Background" />
     </div>
     <div class="container">
         <div class="divider--shape-1up"></div>
         <div class="row clearfix">
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-                <div class="heading heading-1 mb-50 text--center">
-                    <p class="heading--subtitle">Testimonials</p>
-                    <h2 class="heading--title color-white">Happy Customers</h2>
-                    <div class="divider--shape-13"></div>
+                <div class="heading heading-3 text--center">
+                    <p class="heading--subtitle">Ready To Serve</p>
+                    <h2 class="heading--title mb-0 text-white">Our Talented Chefs</h2>
                 </div>
             </div>
             <!-- .col-md-8 end -->
-        </div>
-        <!-- .row end -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div id="testimonial-carousel" class="carousel carousel-dots carousel-white" data-slide="3" data-slide-rs="1" data-autoplay="false" data-nav="false" data-dots="true" data-space="30" data-loop="true" data-speed="800">
-                    <!-- Testimonial #1 -->
-                    <div class="testimonial-container">
-
-                        <div class="testimonial-panel">
-                            <div class="testimonial-bordered">
-                                <div class="testimonial--rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <!-- .testimonial-rating end -->
-                                <div class="testimonial--body">
-                                    <p>“ Steak In is simply the best. Great Food, nice atmosphere and very reasonable prices. It just doesn't get any better ”</p>
-                                </div>
-                                <!-- .testimonial-body end -->
-                                <div class="testimonial--meta">
-                                    <div class="testimonial--img">
-                                        <img src="assets/images/testimonial/1.png" alt="Testimonial Author">
-                                    </div>
-                                    <div class="testimonial--author">
-                                        <h4>Michael Luke</h4>
-                                    </div>
-                                </div>
-                                <!-- .testimonial-meta end -->
-                            </div>
-                        </div>
-                        <!-- .testimonial-panel end -->
-                        <div class="divider--shape-1up"></div>
-                    </div>
-                    <!-- Testimonial #2 -->
-                    <div class="testimonial-container">
-
-                        <div class="testimonial-panel">
-                            <div class="testimonial-bordered">
-                                <div class="testimonial--rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <!-- .testimonial-rating end -->
-                                <div class="testimonial--body">
-                                    <p>“ We've been to Steak In many times over the years. We know what to expect: great food and awesome prices ”</p>
-                                </div>
-                                <!-- .testimonial-body end -->
-                                <div class="testimonial--meta">
-                                    <div class="testimonial--img">
-                                        <img src="assets/images/testimonial/2.png" alt="Testimonial Author">
-                                    </div>
-                                    <div class="testimonial--author">
-                                        <h4>Henry Gabriel</h4>
-                                    </div>
-                                </div>
-                                <!-- .testimonial-meta end -->
-                            </div>
-
-                        </div>
-                        <!-- .testimonial-panel end -->
-                        <div class="divider--shape-1up"></div>
-                    </div>
-                    <!-- Testimonial #3 -->
-                    <div class="testimonial-container">
-
-                        <div class="testimonial-panel">
-                            <div class="testimonial-bordered">
-                                <div class="testimonial--rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <!-- .testimonial-rating end -->
-                                <div class="testimonial--body">
-                                    <p>“ The reasonable prices, the great atmosphere are only topped by the delicious food. Keep up the great work ”</p>
-                                </div>
-                                <!-- .testimonial-body end -->
-                                <div class="testimonial--meta">
-                                    <div class="testimonial--img">
-                                        <img src="assets/images/testimonial/3.png" alt="Testimonial Author">
-                                    </div>
-                                    <div class="testimonial--author">
-                                        <h4>Leo Jaxon</h4>
-                                    </div>
-                                </div>
-                                <!-- .testimonial-meta end -->
-                            </div>
-
-                        </div>
-                        <!-- .testimonial-panel end -->
-                        <div class="divider--shape-1up"></div>
-                    </div>
-                    <!-- Testimonial #4 -->
-                    <div class="testimonial-container">
-
-                        <div class="testimonial-panel">
-                            <div class="testimonial-bordered">
-                                <div class="testimonial--rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <!-- .testimonial-rating end -->
-                                <div class="testimonial--body">
-                                    <p>“ Steak In is simply the best. Great Food, nice atmosphere and very reasonable prices. It just doesn't get any better ”</p>
-                                </div>
-                                <!-- .testimonial-body end -->
-                                <div class="testimonial--meta">
-                                    <div class="testimonial--img">
-                                        <img src="assets/images/testimonial/4.png" alt="Testimonial Author">
-                                    </div>
-                                    <div class="testimonial--author">
-                                        <h4>Anthony Hunter</h4>
-                                    </div>
-                                </div>
-                                <!-- .testimonial-meta end -->
-                            </div>
-                        </div>
-                        <!-- .testimonial-panel end -->
-                        <div class="divider--shape-1up"></div>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-md-12 end -->
         </div>
         <!-- .row end -->
         <div class="divider--shape-1down"></div>
     </div>
     <!-- .container end -->
 </section>
-<!-- #testimonial1 end -->
+<!-- #divider1 end -->
 
-<!-- Blog Carousel
+<!-- Team #1
 ============================================= -->
-<section id="blog" class="blog blog-carousel pb-100 pb-100">
+<section id="team1" class="team team-2">
     <div class="container">
+        <div class="row">
+            <!-- Member #1 -->
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="assets/images/team/1.jpg" alt="member">
+                        <div class="member-overlay">
+                            <div class="member-hover">
+                                <div class="pos-vertical-center">
+                                    <div class="member-social">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-instagram"></i></a>
+                                    </div>
+                                    <!-- .memebr-social end -->
+                                </div>
+                                <!-- .pos-vertical-center end -->
+                            </div>
+                            <!-- .memebr-hover end -->
+                        </div>
+                        <!-- .memebr-ovelay end -->
+                    </div>
+                    <!-- .member-img end -->
+                    <div class="member-info">
+                        <h5>James Carter</h5>
+                        <h6>CEO & Founder</h6>
+                    </div>
+                    <!-- .member-info end -->
+                </div>
+                <!-- .member end -->
+            </div>
+            <!-- .col-md-3 end -->
+
+            <!-- Member #2 -->
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="assets/images/team/2.jpg" alt="member">
+                        <div class="member-overlay">
+                            <div class="member-hover">
+                                <div class="pos-vertical-center">
+                                    <div class="member-social">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-instagram"></i></a>
+                                    </div>
+                                    <!-- .memebr-social end -->
+                                </div>
+                                <!-- .pos-vertical-center end -->
+                            </div>
+                            <!-- .memebr-hover end -->
+                        </div>
+                        <!-- .memebr-ovelay end -->
+                    </div>
+                    <!-- .member-img end -->
+                    <div class="member-info">
+                        <h5>Adam Smith</h5>
+                        <h6>Master Chef</h6>
+                    </div>
+                    <!-- .member-info end -->
+                </div>
+                <!-- .member end -->
+            </div>
+            <!-- .col-md-3 end -->
+
+            <!-- Member #3 -->
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="assets/images/team/3.jpg" alt="member">
+                        <div class="member-overlay">
+                            <div class="member-hover">
+                                <div class="pos-vertical-center">
+                                    <div class="member-social">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-instagram"></i></a>
+                                    </div>
+                                    <!-- .memebr-social end -->
+                                </div>
+                                <!-- .pos-vertical-center end -->
+                            </div>
+                            <!-- .memebr-hover end -->
+                        </div>
+                        <!-- .memebr-ovelay end -->
+                    </div>
+                    <!-- .member-img end -->
+                    <div class="member-info">
+                        <h5>Gene Stevens</h5>
+                        <h6>Thai Master Chef</h6>
+                    </div>
+                    <!-- .member-info end -->
+                </div>
+                <!-- .member end -->
+            </div>
+            <!-- .col-md-3 end -->
+
+            <!-- Member #4 -->
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="assets/images/team/4.jpg" alt="member">
+                        <div class="member-overlay">
+                            <div class="member-hover">
+                                <div class="pos-vertical-center">
+                                    <div class="member-social">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-instagram"></i></a>
+                                    </div>
+                                    <!-- .memebr-social end -->
+                                </div>
+                                <!-- .pos-vertical-center end -->
+                            </div>
+                            <!-- .memebr-hover end -->
+                        </div>
+                        <!-- .memebr-ovelay end -->
+                    </div>
+                    <!-- .member-img end -->
+                    <div class="member-info">
+                        <h5>Walter Adler</h5>
+                        <h6>Chinese Master Chef</h6>
+                    </div>
+                    <!-- .member-info end -->
+                </div>
+                <!-- .member end -->
+            </div>
+            <!-- .col-md-3 end -->
+        </div>
+    </div>
+</section>
+<!-- #team1 end  -->
+
+<!-- Divider #1
+============================================= -->
+<section id="divider4" class="section-divider3 bg-overlay bg-parallax bg-overlay-dark4">
+    <div class="bg-section">
+        <img src="assets/images/background/28.jpg" alt="Background" />
+    </div>
+    <div class="container">
+        <div class="divider--shape-1up"></div>
         <div class="row clearfix">
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-                <div class="heading heading-1 mb-50 text--center">
-                    <p class="heading--subtitle">Don’t miss</p>
-                    <h2 class="heading--title mb-0">Our News & Events</h2>
-                    <div class="divider--shape-4"></div>
+                <div class="heading heading-3 text--center">
+                    <p class="heading--subtitle">Testimonials</p>
+                    <h2 class="heading--title mb-0 text-white">Happy Customers</h2>
                 </div>
             </div>
             <!-- .col-md-8 end -->
         </div>
         <!-- .row end -->
+        <div class="divider--shape-1down"></div>
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #divider1 end -->
+
+<!-- Testimonial #3
+============================================= -->
+<section id="testimonial3" class="testimonial testimonial-3 text-center pb-90 ">
+    <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="carousel" data-slide="3" data-slide-rs="2" data-autoplay="true" data-nav="false" data-dots="false" data-space="0" data-loop="true" data-speed="800">
-
-                    <!-- Blog Entry #1 -->
-                    <div class="blog-entry">
-
-                        <div class="entry--content">
-                            <div class="entry--meta">
-                                <span class="entry--date">Feb 22, 2017</span> / <span><a href="#">Fall</a> , <a href="#">Side Dish</a></span>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
+                <div id="testimonial-wide" class="carousel carousel-dots" data-slide="1" data-slide-rs="1" data-autoplay="false" data-nav="false" data-dots="true" data-space="0" data-loop="true" data-speed="800">
+                    <!-- Testimonial #1 -->
+                    <div class="testimonial-panel">
+                        <div class="testimonial--rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <!-- .testimonial-rating end -->
+                        <div class="testimonial--body">
+                            <p>We're all moving at such a high rate that we have to grab the frozen dinners, we can't make it a way of life. We have to get back to real, simple, clean good foods</p>
+                        </div>
+                        <!-- .testimonial-body end -->
+                        <div class="testimonial--meta">
+                            <div class="testimonial--img">
+                                <img src="assets/images/testimonial/1.png" alt="Testimonial Author">
                             </div>
-                            <div class="entry--title">
-                                <h4><a href="#">Simple Recipes for Spring</a></h4>
-                            </div>
-                            <div class="entry--img">
-                                <a href="#">
-								<img src="assets/images/blog/grid/1.jpg" alt="entry image"/>
-							</a>
-                            </div>
-                            <div class="entry--bio">
-                                My favorite form of cold-weather exercise is snow-shoeing, but by chance I haven’t been able to go this year. Too busy working at the computer
+                            <div class="testimonial--author">
+                                <h4>Michael Luke</h4>
                             </div>
                         </div>
-                        <!-- .entry-content end -->
+                        <!-- .testimonial-meta end -->
                     </div>
-                    <!-- .blog-entry end -->
+                    <!-- .testimonial-panel end -->
 
-                    <!-- Blog Entry #2 -->
-                    <div class="blog-entry">
-                        <div class="entry--content">
-                            <div class="entry--meta">
-                                <span class="entry--date">Feb 22, 2017</span> / <span><a href="#">Apple</a> , <a href="#">Stuffing And Dressing</a></span>
+                    <!-- Testimonial #2 -->
+                    <div class="testimonial-panel">
+                        <div class="testimonial--rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <!-- .testimonial-rating end -->
+                        <div class="testimonial--body">
+                            <p>We're all moving at such a high rate that we have to grab the frozen dinners, we can't make it a way of life. We have to get back to real, simple, clean good foods</p>
+                        </div>
+                        <!-- .testimonial-body end -->
+                        <div class="testimonial--meta">
+                            <div class="testimonial--img">
+                                <img src="assets/images/testimonial/2.png" alt="Testimonial Author">
                             </div>
-                            <div class="entry--title">
-                                <h4><a href="#">Dinner Party for a Chef!</a></h4>
-                            </div>
-                            <div class="entry--img">
-                                <a href="#">
-								<img src="assets/images/blog/grid/2.jpg" alt="entry image"/>
-							</a>
-                            </div>
-                            <div class="entry--bio">
-                                I began my career as a recipe tester for cookbooks, and I did that work for two years. I loved cookbooks and loved browsing for them...
+                            <div class="testimonial--author">
+                                <h4>Henry Gabriel</h4>
                             </div>
                         </div>
-                        <!-- .entry-content end -->
+                        <!-- .testimonial-meta end -->
                     </div>
-                    <!-- .blog-entry end -->
-
-                    <!-- Blog Entry #3 -->
-                    <div class="blog-entry">
-                        <div class="entry--content">
-                            <div class="entry--meta">
-                                <span class="entry--date">Feb 22, 2017</span> / <span><a href="#">Food</a> , <a href="#">Cheese</a></span>
-                            </div>
-                            <div class="entry--title">
-                                <h4><a href="#">Cake with Cream Cheese</a></h4>
-                            </div>
-                            <div class="entry--img">
-                                <a href="#">
-								<img src="assets/images/blog/grid/3.jpg" alt="entry image"/>
-							</a>
-                            </div>
-                            <div class="entry--bio">
-                                I’ve been baking this cake for many years, and have experimented with making it into cupcakes, as a layer cake, serving it dusted with
-                            </div>
-                        </div>
-                        <!-- .entry-content end -->
-                    </div>
-                    <!-- .blog-entry end -->
-
-                    <!-- Blog Entry #4 -->
-                    <div class="blog-entry">
-
-                        <div class="entry--content">
-                            <div class="entry--meta">
-                                <span class="entry--date">Feb 22, 2017</span> / <span><a href="#">Green</a> , <a href="#">Casserole</a></span>
-                            </div>
-                            <div class="entry--title">
-                                <h4><a href="#">The Best Side Dishes</a></h4>
-                            </div>
-                            <div class="entry--img">
-                                <a href="#">
-							<img src="assets/images/blog/grid/4.jpg" alt="entry image"/>
-						</a>
-                            </div>
-                            <div class="entry--bio">
-                                From green bean casserole to mashed potatoes and cranberry sauce, find standout Thanksgiving sides from Food Network chefs find standout.
-                            </div>
-                        </div>
-                        <!-- .entry-content end -->
-                    </div>
-                    <!-- .blog-entry end -->
-
-                    <!-- Blog Entry #5 -->
-                    <div class="blog-entry">
-
-                        <div class="entry--content">
-                            <div class="entry--meta">
-                                <span class="entry--date">Feb 22, 2017</span> / <span><a href="#">Casserole</a></span>
-                            </div>
-                            <div class="entry--title">
-                                <h4><a href="#">Cornbread Stuffing Apples</a></h4>
-                            </div>
-                            <div class="entry--img">
-                                <a href="#">
-							<img src="assets/images/blog/grid/5.jpg" alt="entry image"/>
-						</a>
-                            </div>
-                            <div class="entry--bio">
-                                Cook sausage for 5 to 7 minutes until browned. Add onions and celery and saute until softened. Add salt and pepper, to taste. Mix in apples, thyme
-                            </div>
-                        </div>
-                        <!-- .entry-content end -->
-                    </div>
-                    <!-- .blog-entry end -->
-
+                    <!-- .testimonial-panel end -->
                 </div>
-                <!-- .carousel end -->
             </div>
-            <!-- .col-md-6 end -->
+            <!-- .col-md-12 end -->
         </div>
         <!-- .row end -->
     </div>
     <!-- .container end -->
 </section>
-<!-- #blog end -->
+<!-- #testimonial3 end -->
 
+<!-- Divider #1
+============================================= -->
+<section id="divider5" class="section-divider3 bg-overlay bg-parallax bg-overlay-dark4">
+    <div class="bg-section">
+        <img src="assets/images/page-title/2.jpg" alt="Background" />
+    </div>
+    <div class="container">
+        <div class="divider--shape-1up"></div>
+        <div class="row clearfix">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+                <div class="heading heading-3 text--center">
+                    <p class="heading--subtitle">Reservation</p>
+                    <h2 class="heading--title mb-0 text-white">Book Your Table</h2>
+                </div>
+            </div>
+            <!-- .col-md-8 end -->
+        </div>
+        <!-- .row end -->
+        <div class="divider--shape-1down"></div>
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #divider1 end -->
+
+<!-- Reservation #2
+============================================= -->
+<section id="reservation6" class="reservation reservation-2 pb-90">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+                <div class="reservation-form text-center">
+                    <div class="reservation--dec">
+                        You can Book a table online easily in just a couple of minutes. We take reservations for lunch and dinner, just check the availability of your table & book it now!
+                    </div>
+                    <form method="post" action="assets/php/reservation.php" class="reservationForm mb-0">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-4">
+                                <div class="form-select">
+                                    <i class="fa fa-angle-down"></i>
+                                    <select class="form-control" name="people" id="num" required>
+									<option value="">Number of people</option>
+<option value="2">2 People</option>
+									<option value="3">3 People</option>
+									<option value="4">4 People</option>
+									<option value="5">5 People</option>
+									<option value="6">6 People</option>
+									<option value="8">8 People</option>
+									<option value="10">10 People</option>
+								</select>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-4">
+                                <div class="form-select">
+                                    <i class="fa fa-angle-down"></i>
+                                    <select class="form-control" name="day" id="day" required>
+									<option value="">Date</option>
+<option value="november 23">November 23, 2018</option>
+									<option value="november 24">November 24, 2018</option>
+									<option value="november 25">November 25, 2018</option>
+									<option value="november 26">November 26, 2018</option>
+									<option value="november 27">November 27, 2018</option>
+								</select>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-4">
+                                <div class="form-select">
+                                    <i class="fa fa-angle-down"></i>
+                                    <select class="form-control" name="time" id="time" required>
+									<option value="">Time</option>
+<option value="8:00">8:00 PM</option>
+									<option value="9:00">9:00 PM</option>
+									<option value="10:00">10:00 PM</option>
+									<option value="11:00">11:00 PM</option>
+									<option value="12:00">12:00 AM</option>
+								</select>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <button type="submit" id="submit-reservation" class="btn btn--secondary btn--block">Find Table</button>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <!--Alert Message-->
+                                <div class="reservation-result"></div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <div class="text-uppercase text-center mt-30">
+                                    <strong><span>Reservation Powered by</span> <a class="reservation-link" href="#">Opentable</a></strong>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .row end -->
+                    </form>
+                    <!-- form end -->
+                </div>
+                <!-- .contact-form end -->
+            </div>
+            <!-- .col-md-8 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #reservation2 end -->
 <!-- footer#1
 ============================================= -->
 <footer id="footer" class="footer footer-1 text-center">
