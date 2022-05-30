@@ -1233,6 +1233,9 @@ blockquot {
 
 .bg-parallax {
 	background-attachment: fixed;
+	position: relative;
+	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
 }
 
 .bg-overlay-gradient:before {
