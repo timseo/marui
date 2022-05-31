@@ -46,12 +46,46 @@
     var $colBg = $(".col-bg");
 
     $bgSection.each(function() {
-        var bgSrc = $(this).children("img").attr("src");
-        var bgUrl = 'url(' + bgSrc + ')';
-        $(this).parent().css("backgroundImage", bgUrl);
-        $(this).parent().addClass("bg-section");
-        $(this).remove();
+        if($(this).children('img').length == 2){
+            if($(window).width() > 767){
+                var bgSrc = $(this).children("img:first-child").attr("src");
+                var bgUrl = 'url(' + bgSrc + ')';
+                $(this).parent().css("backgroundImage", bgUrl);
+                $(this).parent().addClass("bg-section");
+                $(this).hide();
+            }else{
+                var bgSrc = $(this).children("img:last-child").attr("src");
+                var bgUrl = 'url(' + bgSrc + ')';
+                $(this).parent().css("backgroundImage", bgUrl);
+                $(this).parent().addClass("bg-section");
+                $(this).hide();
+            }
+        }else{
+            var bgSrc = $(this).children("img").attr("src");
+            var bgUrl = 'url(' + bgSrc + ')';
+            $(this).parent().css("backgroundImage", bgUrl);
+            $(this).parent().addClass("bg-section");
+            $(this).remove();
+        }
     });
+
+    $(window).resize(function(){
+        $bgSection.each(function() {
+            if($(this).children('img').length == 2){
+                if($(window).width() > 767){
+                    var bgSrc = $(this).children("img:first-child").attr("src");
+                    var bgUrl = 'url(' + bgSrc + ')';
+                    $(this).parent().css("backgroundImage", bgUrl);
+                    $(this).parent().addClass("bg-section");
+                }else{
+                    var bgSrc = $(this).children("img:last-child").attr("src");
+                    var bgUrl = 'url(' + bgSrc + ')';
+                    $(this).parent().css("backgroundImage", bgUrl);
+                    $(this).parent().addClass("bg-section");
+                }
+            }
+        });
+    })
 
     $bgPattern.each(function() {
         var bgSrc = $(this).children("img").attr("src");
